@@ -1,5 +1,5 @@
-import React, { use, useState } from 'react'
-import { MdAttachEmail } from "react-icons/md";
+import React, {  useState } from 'react'
+import { Link } from 'react-router-dom';
 import { FaUserShield } from "react-icons/fa";
 import { BsFillShieldLockFill } from "react-icons/bs";
 import plant from "../../assets/plants.gif"
@@ -71,6 +71,8 @@ const Login = () => {
                 <div className='input-div'>
                     <button type='submit' className='btn-primary'>Login</button>
                 </div>
+                <Link to="/home"><button type='button'>Home</button></Link>
+                <Link to="/register"><button type='button'>Register</button></Link>
             </form>
             </div>
         </div>
