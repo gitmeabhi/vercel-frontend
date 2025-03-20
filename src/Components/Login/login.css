@@ -1,0 +1,9 @@
+.usererr{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: darkred;
+    padding: 10px;
+    background-color: #01040745;
+    border-radius: 3px;
+}

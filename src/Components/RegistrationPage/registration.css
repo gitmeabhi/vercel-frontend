@@ -1,0 +1,121 @@
+.register-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 60vh;
+    background-image: url('../../assets/rain.gif');  
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* linear-gradient(#f5f1f100, #52b57f, #deb887); */
+
+
+.plant-img{
+    width: 280px;
+    height: 60vh;
+    border-radius: 10px 0px 0px 10px;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+       flex-direction: column;
+       width: 100%;
+       padding: 10px;
+       height: 100vh;
+       justify-content: space-between;
+      
+    }
+    .plant-img{
+       height: auto;
+       width: 100%;
+       border-radius: 10px;
+    }
+    .register-page{
+        align-items: flex-start;
+    }
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.heading{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.blur{
+    color: red;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div{
+    padding: 5px 0;
+    width: 100%;
+}
+
+label{
+    font-size: 15px;
+   
+}
+
+.inputs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: bisque;
+        padding: 7px;
+        border-radius: 3px;
+        margin-top: 5px;
+}
+.input-element{
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    font-size: 15px;
+    outline: none;
+    color: darkolivegreen;
+    letter-spacing: 1px;
+}
+.icon{
+    color: dimgrey;
+    width: 10%;
+}
+
+.btn-primary{
+    margin-top: 15px;
+    width: 100%;
+    background: darkcyan;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 17px;
+    transition: ease-in-out 0.3s;
+    border: 0.5px solid #ffffff3b;
+}
+
+.btn-primary:hover{
+    background: lightcoral;
+    transition: ease-in-out 0.3s;
+}
